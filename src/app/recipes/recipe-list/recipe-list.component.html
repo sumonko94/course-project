@@ -8,7 +8,6 @@
     <div class="col list-group">
         <app-recipe-item
         *ngFor="let recipe of recipes"
-        [recipe]="recipe"
-        (click)="onClickRecipe(recipe)"></app-recipe-item>
+        [recipe]="recipe"></app-recipe-item>
     </div>
 </div>
